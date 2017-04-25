@@ -10,36 +10,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="advinha.cursoandroid.com.advinha.MainActivity">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Escolhe um número entre 0 e 10"
-        android:ems="10"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/editText"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textAlignment="center"
-        android:textSize="@dimen/cabecalho_texto" />
-
     <Button
         android:text="@string/botao_jogar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/botaojogarid"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
     <TextView
         android:text="@string/texto_numero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
         android:id="@+id/resultadoid"
         android:textSize="@dimen/cabecalho_texto"
         android:layout_below="@+id/botaojogarid"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Escolha um número entre 0 e 10"
+        android:id="@+id/textView"
+        android:textSize="@dimen/cabecalho_texto"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
