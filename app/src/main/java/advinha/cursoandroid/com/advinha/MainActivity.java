@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 Random randomico = new Random();
                 int numeroAleatorio = randomico.nextInt(10);
                 textoResultado.setText("Número escolhido: "+numeroAleatorio);
-                //
+                //comentario
             }
         });
 
